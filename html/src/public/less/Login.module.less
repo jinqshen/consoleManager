@@ -1,0 +1,240 @@
+@keyframes ballmove1
+{
+    0% {
+        background-color: white;
+        left: calc(100% - 100px);
+        top: 20px;
+    }
+    100% {
+        background-color: rgb(23, 233, 69);
+        left: 200px;
+        top: calc(100% - 200px);
+    }
+}
+@-webkit-keyframes ballmove1
+{
+    0% {
+        background-color: white;
+        left: calc(100% - 100px);
+        top: 20px;
+    }
+    100% {
+        background-color: rgb(23, 233, 69);
+        left: 200px;
+        top: calc(100% - 200px);
+    }
+}
+
+@keyframes ballmove2
+{
+    0% {
+        background-color: rgb(255, 111, 159);
+        left: calc(100px);
+        top: 40px;
+    }
+    100% {
+        background-color: rgb(255, 111, 159);
+        left: 200px;
+        top: calc(100% - 100px);
+    }
+}
+@-webkit-keyframes ballmove2
+{
+    0% {
+        background-color: rgb(255, 111, 159);
+        left: calc(100px);
+        top: 40px;
+    }
+    100% {
+        background-color: rgb(255, 111, 159);
+        left: 200px;
+        top: calc(100% - 100px);
+    }
+}
+
+@keyframes ballmove3
+{
+    0% {
+        background-color: rgb(255, 111, 159);
+        right: calc(100px);
+        bottom: 40px;
+    }
+    100% {
+        background-color: rgb(255, 111, 159);
+        right: 200px;
+        bottom: calc(100% - 100px);
+    }
+}
+@-webkit-keyframes ballmove3
+{
+    0% {
+        background-color: rgb(255, 111, 159);
+        right: calc(100px);
+        bottom: 40px;
+    }
+    100% {
+        background-color: rgb(255, 111, 159);
+        right: 200px;
+        bottom: calc(100% - 100px);
+    }
+}
+
+@keyframes ballmove4
+{
+    0% {
+        background-color: rgb(212, 245, 27);
+        right: calc(100% - 100px);
+        bottom: 20px;
+    }
+    100% {
+        background-color: rgb(212, 245, 27);
+        right: 200px;
+        bottom: calc(100% - 200px);
+    }
+}
+@-webkit-keyframes ballmove4
+{
+    0% {
+        background-color: rgb(212, 245, 27);
+        right: calc(100% - 100px);
+        bottom: 20px;
+    }
+    100% {
+        background-color: rgb(212, 245, 27);
+        right: 200px;
+        bottom: calc(100% - 200px);
+    }
+}
+
+@keyframes ballmove5
+{
+    0% {
+        background-color: rgb(11, 232, 240);
+        right: calc(100% - 120px);
+        bottom: 80px;
+    }
+    100% {
+        background-color: rgb(11, 232, 240);
+        right: 100px;
+        bottom: calc(100% - 500px);
+    }
+}
+@-webkit-keyframes ballmove5
+{
+    0% {
+        background-color: rgb(11, 232, 240);
+        right: calc(100% - 120px);
+        bottom: 80px;
+    }
+    100% {
+        background-color: rgb(11, 232, 240);
+        right: 100px;
+        bottom: calc(100% - 500px);
+    }
+}
+
+@keyframes ballmove6
+{
+    0% {
+        background-color: rgb(240, 11, 11);
+        right: calc(100% - 500px);
+        bottom: 80px;
+    }
+    100% {
+        background-color: rgb(240, 11, 11);
+        right: 80px;
+        bottom: calc(100% - 200px);
+    }
+}
+@-webkit-keyframes ballmove6
+{
+    0% {
+        background-color: rgb(240, 11, 11);
+        right: calc(100% - 500px);
+        bottom: 80px;
+    }
+    100% {
+        background-color: rgb(240, 11, 11);
+        right: 80px;
+        bottom: calc(100% - 200px);
+    }
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+.header {
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+    font-family: 'JetBrains Mono Medium';
+}
+
+.ball1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: ballmove1 10s infinite;
+    animation-direction:alternate;
+    -webkit-animation: ballmove1 10s infinite;
+    -webkit-animation-direction:alternate;
+}
+
+.ball2 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: ballmove2 5s infinite;
+    animation-direction:alternate;
+    -webkit-animation: ballmove2 5s infinite;
+    -webkit-animation-direction:alternate;
+}
+
+.ball3 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: ballmove3 8s infinite;
+    animation-direction:alternate;
+    -webkit-animation: ballmove3 8s infinite;
+    -webkit-animation-direction:alternate;
+}
+
+.ball4 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    animation: ballmove4 7s infinite;
+    animation-direction:alternate;
+    -webkit-animation: ballmove4 7s infinite;
+    -webkit-animation-direction:alternate;
+}
+
+.ball5 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    animation: ballmove5 12s infinite;
+    animation-direction:alternate;
+    -webkit-animation: ballmove5 12s infinite;
+    -webkit-animation-direction:alternate;
+}
+
+.ball6 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    animation: ballmove6 15s infinite;
+    animation-direction:alternate;
+    -webkit-animation: ballmove6 15s infinite;
+    -webkit-animation-direction:alternate;
+}

@@ -1,0 +1,23 @@
+.test {
+    button {
+        width: 60px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        background: linear-gradient(to right, #03a9fe, #f441a5, #ffeb3b, #03a9fe);
+        background-size: 400%;
+        color: #fff;
+        &:hover {
+            animation: move 10s infinite;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+@keyframes move{
+    100% {
+        background-position: -400% 0;
+    }
+}
